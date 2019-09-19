@@ -9,4 +9,4 @@ with sr.Microphone() as source:
     audio = r.listen(source)
     print("Time over, thanks")
 
-print("TEXT: "+r.recognize_google_audio))
+print("TEXT: "+r.recognize_google_audio)
